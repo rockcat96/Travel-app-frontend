@@ -1,6 +1,6 @@
  # Travel Bucket List
 
-This app allows the user to keep a running a list of all the countries they want to visit. The app help users remember which country they want to visit and capture the basic info of destination such as the best month to visit, number of days to visit, etc to help them plan their travels for the year. Users will be able to add, edit, update and delete countries from their database as they see fit.
+This app allows the user to keep a running a list of all the countries they want to visit. The app help users remember which country they want to visit and capture the basic info of a destination such as the best month to visit, number of days to visit, etc to help them plan their travels for the year. Users will be able to add, edit, update and delete countries from their database as they see fit.
 
 
  ### Tech Stack

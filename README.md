@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+ # Travel Bucket List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app allows the user to keep a running a list of all the countries they want to visit. The app help users remember which country they want to visit and capture the basic info of destination such as the best month to visit, number of days to visit, etc to help them plan their travels for the year. Users will be able to add, edit, update and delete countries from their database as they see fit.
 
-## Available Scripts
 
-In the project directory, you can run:
+ ### Tech Stack
 
-### `npm start`
+| Tech used | Description |
+|-----|------|
+| Database | PostgreSQL|
+| Backend | Django|
+| Frontend | React |
+| Deployment | Render and Netlify |
+| Wireframe | Mockflow |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ### Frontend Wireframe
 
-### `npm test`
+ ![wireframe1](https://i.imgur.com/NnbAKcB.png)
+ ![wireframe2](https://i.imgur.com/LVj83bt.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ### App Images
+ Coming soon...
+ <!-- ![app screenshots 1](https://i.imgur.com/ndwzPiR.png)
+ ![app screenshots 2](https://i.imgur.com/rJRVrtr.png)
+ ![app screenshots 3](https://i.imgur.com/s2YfoZa.png)
+ ![app screenshots 4](https://i.imgur.com/OYWUwFx.png)
+ ![app screenshots 5](https://i.imgur.com/0pF80aw.png) -->
 
-### `npm run build`
+### Backend Schema
+| Schema | Data Type   | Defintion   |
+|-----|------|-----|
+| name | varchar | Name of the country   |
+| cities | varchar | Name of the city  |
+| month | varchar | Best month to visit the destination    |
+| days | int | Number of days to visit   |
+| url | URL | Url of the country image |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend Route Table
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+| Name | URL | HTTP Verb | Description |  
+|-----|------|-----|------|
+| Index | /countries/ | Get | Display a list of countries|
+| Show | /countries/:id/ | Get | Display a specific country|
+| Create | /countries | POST | Add a new country|
+| Update | /countries/:id | PUT | Update a country |
+| Delete | /countries/:id | DELETE | Delete a country |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Link to Frontend
+Coming soon
+<!-- [My Project Live Page](https://menu-make-2.onrender.com/menu/) -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Link to Backend
+[Backend Api](https://travel-app-backend-v9eb.onrender.com/countries/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Link to Planning Trello Board
+[TRELLO BOARD](https://trello.com/invite/b/9WKqFaBN/ATTIb532bebbf1162c5d4822f09258beb444B83DF217/travel-bucket-list-app)
 
-## Learn More
+####  Getting Started
+Coming soon...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- - Click on "create new menu items" button to add new menu items to your menu!
+- To learn more about an item, tap on the image of the item.
+- To delete an item, click on the item and then tap the delete button.
+- To edit an item, click on the item and then tap the edit button. This will navigate you to the edit page. Then edit the item and click the update button to make changes to the menu item. -->

@@ -1,14 +1,15 @@
+@import-normalize;
 @import 'header.css';
 @import 'main.css';
 @import 'show.css';
 @import 'footer.css';
-@import 'create.css';
 
 
 
 *,*::before, *::after{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    /* border: 1px solid rgb(10, 208, 222); */
 }
 
 body {

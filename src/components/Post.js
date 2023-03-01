@@ -12,7 +12,7 @@ const Post = ({ post }) => {
     width: "80%",
   };
   return (
-    <div style={div}>
+    <div className="country">
       <Link to={`/post/${post.id}`}>
         <img src={post.url} alt={post.name} width="500px"/>
         <h1>{post.name}</h1>

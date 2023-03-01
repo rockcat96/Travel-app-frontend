@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .8px solid #e7dddd;
+    height: 80px;
+    text-align: left;
+    text-decoration: none;
+    padding: 12px 2px 2px 2px;
+  }
+
+  
+  .header__name.two {
+    
+    margin: auto;
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .neon h3 {
+    margin: 1rem auto;
+    color: #000000;
+    font-weight: 600;
+  }
+ 

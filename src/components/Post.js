@@ -5,12 +5,7 @@ const Post = ({ post }) => {
   //////////////////
   // Style Objects
   //////////////////
-  const div = {
-    textAlign: "center",
-    border: "3px solid",
-    margin: "10px auto",
-    width: "80%",
-  };
+ 
   return (
     <div className="country">
       <Link to={`/post/${post.id}`}>

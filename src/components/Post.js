@@ -14,6 +14,7 @@ const Post = ({ post }) => {
   return (
     <div style={div}>
       <Link to={`/post/${post.id}`}>
+        <img src={post.url} alt={post.name} width="500px"/>
         <h1>{post.name}</h1>
       </Link>
       <h2>{post.month}</h2>

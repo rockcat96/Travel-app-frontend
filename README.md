@@ -17,7 +17,7 @@ This app allows the user to keep a running a list of all the countries they want
  ### Frontend Wireframe
 
  ![wireframe1](https://i.imgur.com/NnbAKcB.png)
- ![wireframe2](https://i.imgur.com/LVj83bt.png)
+ ![wireframe2](https://i.imgur.com/MB2hEAw.png)
 
  ### App Images
 

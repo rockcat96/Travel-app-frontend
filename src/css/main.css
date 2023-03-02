@@ -13,10 +13,11 @@
     font-size: 18px;
     text-align: center;
     width: 30%;
-    
+    text-align: left;
+    color: #818181b5;
   }
 
-  .create_form button{
+  .form button{
     background-color: #000000;
     border: none;
     color: white;
@@ -48,9 +49,9 @@
   .list h1 {
     color: black;
     font-size: large;
-    margin-bottom: 0;
-
+    margin-bottom: 0;  
   }
+
   .list h2 {
     color: #818181;
     font-size: large;

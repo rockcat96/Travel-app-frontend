@@ -1,0 +1,56 @@
+.show{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.show img{
+    width: 600px;
+    height: 400px;
+}
+
+.show_img{
+    width: 500px;
+    height: 400px;
+    width: 50%;
+    margin-top: -5px;
+    padding-right: 100px;
+    padding-left: 185px;
+    padding-bottom: 100px;
+    margin-bottom: 80px;
+
+}
+
+.show_country{
+    text-align: left;
+    width: 40%;
+    padding-top: 15px;
+}
+
+.show_country h2{
+    font-size: larger;
+    font-weight: 50;
+    color: #161616ce;
+}
+
+.show_country .bold{
+    font-weight: 800;
+    color:black;
+}
+
+.update_form h2{
+    margin-bottom: -20px;
+}
+
+.form-delete button{
+    background-color: #f02424;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 15px;
+  }

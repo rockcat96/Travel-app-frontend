@@ -22,7 +22,7 @@ This app allows the user to keep a running a list of all the countries they want
  ### App Images
 
  ![app index page](https://i.imgur.com/jrF2weW.png)
- ![app show page](https://i.imgur.com/W9qVkMg.png)
+ ![app show page](https://i.imgur.com/MB2hEAw.png)
 
 ### Backend Schema
 | Schema | Data Type   | Defintion   |
